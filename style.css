@@ -75,7 +75,7 @@ header {
 ========================= */
 
 .hero {
-  min-height: 86vh;
+  min-height: 68vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -441,4 +441,14 @@ footer {
     font-size: 50px;
   }
 
+}
+.card .project-link {
+  display: block;
+  margin-top: 12px;
+  width: fit-content;
+}
+
+.card strong {
+  display: block;
+  margin-top: 20px;
 }
